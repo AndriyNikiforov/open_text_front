@@ -1,0 +1,16 @@
+{
+  "env": {
+    "browser": true,
+    "node": true,
+    "es6": true
+  },
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "ecmaVersion": 2019,
+    "ecmaFeatures": {
+      "jsx" : true
+    }
+  },
+  "extends": ["airbnb"],
+  "plugins": ["eslint-plugin-import", "react"]
+}
