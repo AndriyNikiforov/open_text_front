@@ -1,4 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { BrowserRouter as Router } from 'react-router-dom';
 
-ReactDOM.render(<h1>Hello</h1>, document.getElementById('root'));
+import Routers from './routers';
+import Header from './components/Header';
+
+ReactDOM.render(
+  <Router>
+    <Routers />
+  </Router>,
+  document.getElementById('root'));
